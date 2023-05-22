@@ -38,6 +38,5 @@ describe('Deel SignUp Test Suite', () => {
     // Check 'Create Your Deel Account' button:
     await expect(DeelSignUp.CreateAccountButton).toBeEnabled();
     await expect(DeelSignUp.CreateAccountButton).toHaveText('Create Your Deel Account');
-    await browser.pause(20000);
   });
 });
