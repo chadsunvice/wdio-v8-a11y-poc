@@ -1,8 +1,8 @@
 const Accounts = {
   basic_account: {
-    name: 'chadsunvice',
-    email: 'numapotoprinumavoiopri@gmail.com',
-    password: 'qwe123Q1'
+    name: process.env.DEEL_USER,
+    email: process.env.DEEL_EMAIL,
+    password: process.env.DEEL_PASS
   },
 };
 
